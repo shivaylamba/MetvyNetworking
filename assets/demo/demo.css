@@ -1043,3 +1043,334 @@
               @media only screen and (max-width: 990px){
                   .our-team{ margin-bottom: 30px; }
               }        
+
+              .section-features {
+                margin-top: 5% }
+                .section-features .block-heading .heading {
+                  color: #fff; }
+                .section-features .block-heading .text {
+                  color: rgba(255, 255, 255, 0.67); }
+                .section-features .features {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: stretch;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+                  list-style: none; }
+                  .section-features .features li {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    border-radius: 10px; }
+                  .section-features .features li.green {
+                    background-color: #00ffa4; }
+                    .section-features .features li.green .text {
+                      color: #171e2f; }
+                  .section-features .features li.blue {
+                    background-color: #171e2f; }
+                    .section-features .features li.blue .heading, .section-features .features li.blue .text {
+                      color: #fff; }
+                  .section-features .features .illustration {
+                    background-position: center; }
+                    .section-features .features .illustration.timer {
+                      background-image: url("../assets/images/illustrations/timer.png");
+                      background-repeat: no-repeat;
+                      background-size: 140px auto;
+                      -webkit-background-size: 140px auto; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .features .illustration.timer {
+                          background-image: url("../assets/images/illustrations/timer@2x.png"); } }
+                    .section-features .features .illustration.location {
+                      background-image: url("../assets/images/illustrations/location.png");
+                      background-repeat: no-repeat;
+                      background-size: 200px auto;
+                      -webkit-background-size: 200px auto; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .features .illustration.location {
+                          background-image: url("../assets/images/illustrations/location@2x.png"); } }
+                    .section-features .features .illustration.bag {
+                      background-image: url("../assets/images/illustrations/bag.png");
+                      background-repeat: no-repeat;
+                      background-size: 140px auto;
+                      -webkit-background-size: 140px auto; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .features .illustration.bag {
+                          background-image: url("../assets/images/illustrations/bag@2x.png"); } }
+                    .section-features .features .illustration.gift {
+                      background-image: url("../assets/images/illustrations/gift.png");
+                      background-repeat: no-repeat;
+                      background-size: 170px auto;
+                      -webkit-background-size: 170px auto; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .features .illustration.gift {
+                          background-image: url("../assets/images/illustrations/gift@2x.png"); } }
+                  .section-features .features .label {
+                    display: inline-block;
+                    padding: 6px 10px;
+                    border-radius: 2px;
+                    background-color: #fff;
+                    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+                    font-weight: 600;
+                    letter-spacing: 3px;
+                    text-transform: uppercase; }
+                  .section-features .features .heading {
+                    font-size: 36px;
+                    font-weight: 900;
+                    line-height: 40px; }
+                  .section-features .features .text {
+                    font-size: 20px;
+                    line-height: 24px;
+                    opacity: .7; }
+                  @media (max-width: 640px) {
+                    .section-features .features li {
+                      padding: 20px; }
+                      .section-features .features li:not(:first-child) {
+                        margin-top: 20px; }
+                    .section-features .features .illustration {
+                      width: 100%;
+                      height: 200px;
+                      margin-bottom: 30px; }
+                    .section-features .features .heading {
+                      margin-top: 20px; }
+                    .section-features .features .text {
+                      margin-top: 15px; } }
+                  @media (max-width: 1024px) {
+                    .section-features .features li {
+                      min-height: 275px; }
+                      .section-features .features li:not(:first-child) {
+                        margin-top: 30px; } }
+                  @media (min-width: 641px) {
+                    .section-features .features li {
+                      padding: 30px; }
+                    .section-features .features .illustration {
+                      width: 200px;
+                      height: 100%; }
+                    .section-features .features .content {
+                      width: calc(100% - 200px);
+                      padding-left: 30px; }
+                    .section-features .features .heading {
+                      margin-top: 10px; }
+                    .section-features .features .text {
+                      margin-top: 30px; } }
+                  @media (min-width: 1025px) {
+                    .section-features .features li {
+                      width: calc((100% - 40px)/2);
+                      min-height: 300px; }
+                      .section-features .features li:nth-child(n+3) {
+                        margin-top: 40px; } }
+                .section-features .feature-icons {
+                  display: flex;
+                  justify-content: center;
+                  flex-wrap: wrap;
+                  text-align: center;
+                  list-style: none; }
+                  .section-features .feature-icons li {
+                    max-width: 140px; }
+                  .section-features .feature-icons .icon {
+                    margin: 0 auto 5px;
+                    background-position: center; }
+                    .section-features .feature-icons .icon.delivery {
+                      background-image: url("../assets/images/icons/delivery.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.delivery {
+                          background-image: url("../assets/images/icons/delivery@2x.png"); } }
+                    .section-features .feature-icons .icon.food {
+                      background-image: url("../assets/images/icons/food.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.food {
+                          background-image: url("../assets/images/icons/food@2x.png"); } }
+                    .section-features .feature-icons .icon.grocery {
+                      background-image: url("../assets/images/icons/grocery.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.grocery {
+                          background-image: url("../assets/images/icons/grocery@2x.png"); } }
+                    .section-features .feature-icons .icon.pet {
+                      background-image: url("../assets/images/icons/pet.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.pet {
+                          background-image: url("../assets/images/icons/pet@2x.png"); } }
+                    .section-features .feature-icons .icon.medicine {
+                      background-image: url("../assets/images/icons/medicine.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.medicine {
+                          background-image: url("../assets/images/icons/medicine@2x.png"); } }
+                    .section-features .feature-icons .icon.meat {
+                      background-image: url("../assets/images/icons/meat.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.meat {
+                          background-image: url("../assets/images/icons/meat@2x.png"); } }
+                    .section-features .feature-icons .icon.electronics {
+                      background-image: url("../assets/images/icons/electronics.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.electronics {
+                          background-image: url("../assets/images/icons/electronics@2x.png"); } }
+                    .section-features .feature-icons .icon.taxi {
+                      background-image: url("../assets/images/icons/taxi.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.taxi {
+                          background-image: url("../assets/images/icons/taxi@2x.png"); } }
+                    .section-features .feature-icons .icon.others {
+                      background-image: url("../assets/images/icons/others.png");
+                      background-repeat: no-repeat;
+                      background-size: 100% 100%;
+                      -webkit-background-size: 100% 100%; }
+                      @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                        .section-features .feature-icons .icon.others {
+                          background-image: url("../assets/images/icons/others@2x.png"); } }
+                  @media (max-width: 640px) {
+                    .section-features .feature-icons li {
+                      margin-top: 30px;
+                      padding: 0 20px; }
+                    .section-features .feature-icons .icon {
+                      width: 56px;
+                      height: 56px; } }
+                  @media (min-width: 641px) {
+                    .section-features .feature-icons {
+                      margin-top: 45px; }
+                      .section-features .feature-icons li {
+                        padding: 0 30px; }
+                      .section-features .feature-icons .icon {
+                        width: 60px;
+                        height: 60px; } }
+                  @media (min-width: 1025px) {
+                    .section-features .feature-icons {
+                      margin-top: 60px; }
+                      .section-features .feature-icons .icon {
+                        width: 70px;
+                        height: 70px; } }
+                @media (max-width: 640px) {
+                  .section-features {
+                    padding: 0 0 30px; } }
+                @media (min-width: 641px) {
+                  .section-features {
+                    padding: 0 0 45px; } }
+                @media (min-width: 1025px) {
+                  .section-features {
+                    padding: 0 0 60px; } }
+
+
+
+
+                    .section-get-app-2 {
+                      position: relative;
+                      overflow: hidden; }
+                      .section-get-app-2 .container {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: flex-start;
+                        height: 100%; }
+                      .section-get-app-2 .heading {
+                        margin-bottom: 30px;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 1; }
+                        .section-get-app-2 .heading span {
+                          font-weight: 900; }
+                      .section-get-app-2 .text {
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        opacity: .67; }
+                      .section-get-app-2 .imp-text {
+                        margin-bottom: 50px;
+                        color: #00ffa4;
+                        font-size: 34px;
+                        font-weight: 900;
+                        line-height: 40px; }
+                      .section-get-app-2 .btn-download {
+                        display: inline-block;
+                        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+                        transition: box-shadow 300ms ease; }
+                        .section-get-app-2 .btn-download.android {
+                          background-image: url("../assets/images/appstore.png");
+                          background-repeat: no-repeat;
+                          background-size: 100% 100%;
+                          -webkit-background-size: 100% 100%; }
+                          @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                            .section-get-app-2 .btn-download.android {
+                              background-image: url("../assets/images/appstore@2x.png"); } }
+                        .section-get-app-2 .btn-download.ios {
+                          background-image: url("../assets/images/playstore.png");
+                          background-repeat: no-repeat;
+                          background-size: 100% 100%;
+                          -webkit-background-size: 100% 100%; }
+                          @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
+                            .section-get-app-2 .btn-download.ios {
+                              background-image: url("../assets/images/playstore@2x.png"); } }
+                        .section-get-app-2 .btn-download:hover {
+                          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2); }
+                        .section-get-app-2 .btn-download:not(:first-child) {
+                          margin-left: 15px; }
+                      .section-get-app-2 .get-link-or-dl-2 {
+                        margin-top: 20px; }
+                      .section-get-app-2 .cities {
+                        margin-top: 20px;
+                        color: rgba(23, 30, 47, 0.4);
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        text-transform: uppercase; }
+                      @media (max-width: 640px) {
+                        .section-get-app-2 .btn-download {
+                          width: 136px;
+                          height: 40px;
+                          border-radius: 5px; }
+                          .section-get-app-2 .btn-download:not(:first-child) {
+                            margin-left: 10px; }
+                        .section-get-app-2 .screenshots {
+                          display: block;
+                          width: 92%;
+                          margin: 0 auto 30px; } }
+                      @media (max-width: 1024px) {
+                        .section-get-app-2 {
+                          padding: 30px 0 80px; }
+                          .section-get-app-2 .screenshots {
+                            display: block;
+                            width: 92%; } }
+                      @media (min-width: 641px) and (max-width: 1024px) {
+                        .section-get-app-2 .screenshots {
+                          margin: 0 auto 60px; } }
+                      @media (min-width: 641px) {
+                        .section-get-app-2 .btn-download {
+                          width: 220px;
+                          height: 65px;
+                          border-radius: 8px; } }
+                      @media (min-width: 1025px) {
+                        .section-get-app-2 {
+                          height: 900px;
+                          padding: 60px 0 80px; }
+                          .section-get-app-2 .col-grid {
+                            width: 50%;
+                            padding-right: 80px; }
+                          .section-get-app-2 .screenshots {
+                            position: absolute;
+                            top: 60px;
+                            left: 50%;
+                            max-height: 780px; } }
+                    
