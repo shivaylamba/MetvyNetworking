@@ -16384,15 +16384,15 @@ textarea.form-control:active {
   height: 100vh;
 }
 
-.index-page .page-header .container>.content-center.brand .h1-seo,
-.index-page .page-header .container>.content-center.brand h3 {
+.index-page .page-header .container>.content-center.brand .h2-seo,
+.index-page .page-header .container>.content-center.brand h2 {
   color: #ffffff;
   font-weight: 600;
   text-transform: capitalize;
 }
 
-.index-page .page-header .container>.content-center.brand .h1-seo span,
-.index-page .page-header .container>.content-center.brand h3 span {
+.index-page .page-header .container>.content-center.brand .h2-seo span,
+.index-page .page-header .container>.content-center.brand h2 span {
   font-weight: 600;
 }
 
