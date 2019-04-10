@@ -16386,7 +16386,7 @@ textarea.form-control:active {
 
 .index-page .page-header .container>.content-center.brand .h2-seo,
 .index-page .page-header .container>.content-center.brand h2 {
-  color: #ffffff;
+  color: #292d61;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -17651,7 +17651,7 @@ hr.line-deafult {
   min-height: 100vh;
   max-height: 999px;
   padding: 0;
-  color: #ffffff;
+  color: #292d61;
   position: relative;
   overflow: hidden;
 }
