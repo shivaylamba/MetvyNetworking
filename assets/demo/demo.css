@@ -1075,13 +1075,13 @@
                   .section-features .features .illustration {
                     background-position: center; }
                     .section-features .features .illustration.timer {
-                      background-image: url("../img/1.jpg");
+                      background-image: url("../img/10image.png");
                       background-repeat: no-repeat;
                       background-size: 140px auto;
                       -webkit-background-size: 140px auto; }
                       @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
                         .section-features .features .illustration.timer {
-                          background-image: url("../img/1.jpg"); } }
+                          background-image: url("../img/10image.png"); } }
                     .section-features .features .illustration.location {
                       background-image: url("../img/map-pin-area-multiple-512.png");
                       background-repeat: no-repeat;
