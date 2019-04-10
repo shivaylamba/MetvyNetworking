@@ -84,18 +84,25 @@
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header header-filter">
-      <div class="squares square1"></div>
+      <!-- <div class="squares square1"></div>
       <div class="squares square2"></div>
       <div class="squares square3"></div>
       <div class="squares square4"></div>
       <div class="squares square5"></div>
       <div class="squares square6"></div>
-      <div class="squares square7"></div>
+      <div class="squares square7"></div> -->
+   
       <div class="container">
+        
+          <div id="particles-js">
         <div class="content-center brand">
           <h1 class="h1-seo">#MetAtMetvy</h1>
           <h3>Metvy is an intuitive networking platform that helps you connect face to face with the kind of people you’re looking for. Anytime, Anywhere.</h3>
         </div>
+
+      </div>
+
+        
       </div>
       
     </div>
@@ -279,6 +286,119 @@
 
 <script type="text/javascript" src="./assets/js/app.js">  </script>
       <script type="text/javascript" src="./assets/js/particles.min.js">  </script>
+      <script>
+          particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 80,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#eee"
+          },
+          "shape": {
+            "type": "triangle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#eee",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": false,
+              "mode": "grab"
+            },
+            "onclick": {
+              "enable": false,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 140,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+          
+          </script>
 
 </body>
 
