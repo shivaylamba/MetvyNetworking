@@ -18602,16 +18602,7 @@ hr.line-deafult {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .page-header .content-center .row {
-    text-align: center !important;
-  }
-  .page-header .content-center img {
-    height: 25%;
-    margin-top: 0px;
-    width:50%;
-  }
-}
+
 
 .wrapper .navbar {
   z-index: 2;
