@@ -1387,7 +1387,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #58d68d;
+  background-color: linear-gradient(#58d68d, #33F7D0);
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
