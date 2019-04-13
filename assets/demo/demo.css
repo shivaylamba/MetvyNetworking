@@ -1075,37 +1075,37 @@
                   .section-features .features .illustration {
                     background-position: center; }
                     .section-features .features .illustration.timer {
-                      background-image: url("../img/brain.jpg");
+                      background-image: url("../img/4.png");
                       background-repeat: no-repeat;
                       background-size: 140px auto;
                       -webkit-background-size: 140px auto; }
                       @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
                         .section-features .features .illustration.timer {
-                          background-image: url("../img/brain.jpg"); } }
+                          background-image: url("../img/4.png"); } }
                     .section-features .features .illustration.location {
-                      background-image: url("../img/map-pin-area-multiple-512.png");
+                      background-image: url("../img/2.png");
                       background-repeat: no-repeat;
                       background-size: 200px auto;
                       -webkit-background-size: 200px auto; }
                       @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
                         .section-features .features .illustration.location {
-                          background-image: url("../img/map-pin-area-multiple-512.png"); } }
+                          background-image: url("../img/2.png"); } }
                     .section-features .features .illustration.bag {
-                      background-image: url("../img/face.jpg");
+                      background-image: url("../img/1.png");
                       background-repeat: no-repeat;
                       background-size: 140px auto;
                       -webkit-background-size: 140px auto; }
                       @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
                         .section-features .features .illustration.bag {
-                          background-image: url("../img/face.jpg"); } }
+                          background-image: url("../img/1.png"); } }
                     .section-features .features .illustration.gift {
-                      background-image: url("../img/Black_Gradient_Star.png");
+                      background-image: url("../img/3.png");
                       background-repeat: no-repeat;
                       background-size: 170px auto;
                       -webkit-background-size: 170px auto; }
                       @media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 2dppx) {
                         .section-features .features .illustration.gift {
-                          background-image: url("../img/Black_Gradient_Star.png"); } }
+                          background-image: url("../img/3.png"); } }
                   .section-features .features .label {
                     display: inline-block;
                     padding: 6px 10px;
