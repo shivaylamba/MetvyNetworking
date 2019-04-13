@@ -16385,14 +16385,14 @@ textarea.form-control:active {
 }
 
 .index-page .page-header .container>.content-center.brand .h2-seo,
-.index-page .page-header .container>.content-center.brand h2 {
+.index-page .page-header .container>.content-center.brand h3 {
   color: #292d61;
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .index-page .page-header .container>.content-center.brand .h2-seo span,
-.index-page .page-header .container>.content-center.brand h2 span {
+.index-page .page-header .container>.content-center.brand h3 span {
   font-weight: 600;
 }
 
