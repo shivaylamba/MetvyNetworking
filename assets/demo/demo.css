@@ -1072,7 +1072,7 @@
                 left: 0;
                 width: 100%;
                 padding: 30px 0;
-                background-color: rgba(134,16,74,0.9);
+                background-color: rgba(41, 45, 97,0.9);
                 transition:all 0.3s ease 0s;
             }
             .our-team:hover .team-content{
