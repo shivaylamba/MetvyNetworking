@@ -529,22 +529,54 @@ svg:not(:root) {
         justify-content: flex-end;
     }
 }
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+   position: relative;
+}
 
+.logo{
+    position:absolute;
+    left: 38%;
+    right : 55%;
+    width : 20%;
+    height :100%;
+    top: 55%;
+    z-index: 20;
+}
+
+
+
+
+img {
+  position: relative;
+  z-index: 1000;
+  top:10%;
+  left: 4%;
+}
        
        
        </style>
 </head>
 <body>
  <center>
-  <div class="header" style="background-image: linear-gradient(to right,#58d68d, #33F7D0); border-top-left-radius: 50px ; border-top-right-radius: 50px ;">
-      <img style="padding: 10px ; border-top-left-radius: 50px ; border-top-right-radius: 50px ;;" src="./assets/img/metvy.png" width="8%" height = "14%"/>
-  </div>
-  <div class ="middleware" style ="width : 100%;background-color: #fff">
-        <img style="padding: 10px ; border-top-left-radius: 50px ; border-top-right-radius: 50px ;;" src="./assets/img/pic.png" width="20%" height = "34%"/>
 
+  <div class="row fullWidth" style="background-image: linear-gradient(to right,#58d68d, #33F7D0);height: 120px;  border-top-left-radius: 50px ; border-top-right-radius: 50px ;">
+      <img  src="./assets/img/metvy.png" width="70px" align="left"/>
+      
+            <img src="./assets/img/pic.png" class="logo">
+  
+        
+    </div>
+  <div class ="row fullWidth" style ="width : 100%;height: 80%; background-color: #fff">
+    <br><br><br><br>
+  <h1>
+      TEST
+  </h1>     
+     <!-- <img style="padding: 10px ; border-top-left-radius: 50px ; border-top-right-radius: 50px ;;" src="./assets/img/pic.png" width="20%" height = "34%"/> -->
 </div>
-
-  </div>
   <div class = "footer" style="background-image: linear-gradient(to right,#58d68d, #33F7D0); border-bottom-left-radius: 50px ; border-bottom-right-radius: 50px ;">
         <!-- <footer class="footer">
                 <div class="container" id="5">
