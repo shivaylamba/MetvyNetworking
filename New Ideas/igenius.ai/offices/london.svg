@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Symbols/London</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols/London" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-1" points="0 24 24 24 24 0 0 0"></polygon>
+        <path d="M7.5,7 C5.015,7 3,9.015 3,11.5 L12,11.5 C12,9.015 9.985,7 7.5,7 Z" id="Stroke-4" fill="#000000" transform="translate(7.500000, 9.250000) rotate(120.000000) translate(-7.500000, -9.250000) "></path>
+        <polygon id="Stroke-2" fill="#84EFCF" points="16.0859 20.5381 10.2899 18.9851 13.9139 5.4621 19.7099 7.0151"></polygon>
+    </g>
+</svg>

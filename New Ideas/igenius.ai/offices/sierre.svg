@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Symbols/Sierre</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols/Sierre" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-1" points="0 24 24 24 24 0 0 0"></polygon>
+        <path d="M21,8 C21,12.418 17.418,16 13,16 C8.582,16 5,12.418 5,8 L21,8 Z" id="Stroke-2" fill="#FFCB30" transform="translate(13.000000, 12.000000) rotate(120.000000) translate(-13.000000, -12.000000) "></path>
+        <path d="M3,6 C3,7.657 4.343,9 6,9 C7.657,9 9,7.657 9,6 C9,4.343 7.657,3 6,3 C4.343,3 3,4.343 3,6 Z" id="Stroke-3" fill="#000000"></path>
+    </g>
+</svg>

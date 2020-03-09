@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Symbols/Milan</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols/Milan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1">
+            <polygon id="Fill-1" points="0 24 24 24 24 0 0 0"></polygon>
+            <polygon id="Stroke-2" fill="#FA8368" points="5 20 11 20 11 6 5 6"></polygon>
+            <path d="M13,9 C13,10.657 14.343,12 16,12 C17.657,12 19,10.657 19,9 C19,7.343 17.657,6 16,6 C14.343,6 13,7.343 13,9 Z" id="Stroke-3" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
